@@ -139,6 +139,10 @@
         "android_bypass_emulator_url_remap": {
           "description": "On android devices, the urls of firebase emulators will be remapped from localhost to 10.0.2.2. If you don't need this behaviour set this fleg to `true`.",
           "type": "boolean"
+        },
+        "crashlytics_disable_auto_disabler": {
+          "description": "Disable or enable crash reporting is fundamental to improving and maintaining app quality",
+          "type": "boolean"
         }
       }
     }
